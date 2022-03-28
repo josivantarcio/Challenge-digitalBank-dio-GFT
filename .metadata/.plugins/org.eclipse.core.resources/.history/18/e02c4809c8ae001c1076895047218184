@@ -1,0 +1,14 @@
+package me.dio.challengeBank.entities;
+
+public class CurrentAccount extends Account{
+
+	private static int sequential = 1;
+	public CurrentAccount(int agency) {
+		super(agency);
+		Account.account = sequential++;
+	}
+	
+
+	
+	
+}

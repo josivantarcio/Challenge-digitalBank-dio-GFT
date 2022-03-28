@@ -1,0 +1,32 @@
+package me.dio.challengeBank.entities;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Account cc = new Account(1) {};
+		System.out.println("Agencia: "+cc.getAgency());
+		System.out.println("Conta: "+cc.getAccount());
+		
+		Account cc1 = new Account(1) {};
+		System.out.println("Agencia: "+cc1.getAgency());
+		System.out.println("Conta: "+cc1.getAccount());
+		
+		Account cc2 = new Account(1) {};
+		System.out.println("Agencia: "+cc2.getAgency());
+		System.out.println("Conta: "+cc2.getAccount());
+		
+		Account cp = new SalvingsAccount(1);
+		System.out.println("Agencia: "+cp.getAgency());
+		System.out.println("Conta: "+cp.getAccount());
+		
+		Account cp2 = new SalvingsAccount(1);
+		System.out.println("Agencia: "+cp2.getAgency());
+		System.out.println("Conta: "+cp2.getAccount());
+		
+		Account cc4 = new Account(1){};
+		System.out.println("Agencia: "+cc4.getAgency());
+		System.out.println("Conta: "+cc4.getAccount());
+		
+	}
+
+}

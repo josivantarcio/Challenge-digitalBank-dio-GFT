@@ -1,0 +1,10 @@
+package me.dio.challengeBank.entities;
+
+public class CurrentAccount extends Account{
+
+	public CurrentAccount(int agency, int account) {
+		super(agency, account);
+		
+	}
+	
+}

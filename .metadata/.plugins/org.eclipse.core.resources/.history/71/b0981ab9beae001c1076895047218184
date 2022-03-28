@@ -1,0 +1,5 @@
+package me.dio.challengeBank.entities;
+
+public class SalvingsAccount {
+
+}

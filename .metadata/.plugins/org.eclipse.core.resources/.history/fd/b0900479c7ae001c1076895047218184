@@ -1,0 +1,8 @@
+package me.dio.challengeBank.entities;
+
+public class CurrentAccount extends Account{
+	
+
+	
+	
+}

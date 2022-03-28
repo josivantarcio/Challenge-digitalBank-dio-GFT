@@ -1,0 +1,17 @@
+package me.dio.challengeBank.entities;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Account cc = new Account(1) {};
+		System.out.println(cc);
+		
+		Account cc1 = new Account(1) {};
+		System.out.println(cc1);
+		
+		Account cc2 = new Account(1) {};
+		System.out.println(cc2);
+		
+	}
+
+}

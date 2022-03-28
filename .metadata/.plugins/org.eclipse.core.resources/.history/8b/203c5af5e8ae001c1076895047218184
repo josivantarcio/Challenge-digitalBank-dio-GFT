@@ -1,0 +1,31 @@
+package me.dio.challengeBank.entities;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Account cp = new SalvingsAccount(1);
+		cp.deposit(2000);
+		System.out.println(cp);
+				
+		Account cc1 = new CurrentAccount(1);
+		cc1.deposit(500);
+		cc1.takeOut(200);
+		
+		
+		Account cc2 = new CurrentAccount(1);
+		System.out.println(cc2);
+		
+		Account cc3 = new CurrentAccount(1);
+		System.out.println(cc3);
+		
+		Account cp2 = new SalvingsAccount(1);
+		cp2.deposit(350.85);
+		
+		cc1.transfer(cp2, 300);
+
+		System.out.println(cc1);
+		System.out.println(cp2);
+		
+	}
+
+}

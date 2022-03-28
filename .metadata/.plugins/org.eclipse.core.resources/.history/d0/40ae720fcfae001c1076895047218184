@@ -1,0 +1,16 @@
+package me.dio.challengeBank.entities;
+
+public class SalvingsAccount extends Account{
+
+	private static int sequential = 1;
+	public SalvingsAccount(int agency) {
+		super(agency);
+		try {
+			Account.account = sequential++;
+		}catch (Exception e) {
+			System.out.println("Existing account");
+			e.printStackTrace();
+		}
+	}
+	
+}
