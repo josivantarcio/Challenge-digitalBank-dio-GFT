@@ -32,11 +32,10 @@ public abstract class Account {
 	}
 	
 	public void transfer(Account accountIn, double valueTransf) {
-		this.takeOut(valueTransf + taxTransf); 
+		this.takeOut(valueTransf + taxTransf);
 		accountIn.deposit(valueTransf);
 	}
 
-	
 	@Override
 	public String toString() {
 		return "\n   *** Account ***   \n\n >Agency: " + agency 
